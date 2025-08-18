@@ -8,9 +8,6 @@
 1.加入【云湖黑名单共享群】，并上传书面的举报材料。（注意：必须有图片证据，必须包括聊天记录、该用户的详情页截图，且markdown格式的文件需要打包为zip，此外任何格式无限制）  
 2.等待评估  
 3.结束本次举报流程。我们会酌情在举报有效的情况下择时日开始对本项目进行update。  
-# 我该怎么使用这个仓库？
-本项目真正有效的文件是**blacklist.csv**。
-在大多数情况下只需要：
-```
-git clone https://github.com/fayeyu114514/yhchat-public-blacklist/
-```
+# 我该怎么使用这个项目？
+json格式的数据地址：https://yhchat-public-blacklist.pages.dev/blacklist.json  
+黑名单表格文件存放在 `src/csv/blacklist.csv` 下
