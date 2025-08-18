@@ -1,6 +1,16 @@
 # yhchat-public-blacklist
-An blacklist of yhchat,a AI-based Chat application.
-# How to use?
-use git:
-**git clone https://github.com/fayeyu114514/yhchat-public-blacklist**
-and the type of blacklist file is CSV,**just in path yhchat-public-blacklist/.**
+这是一个公益项目。  
+本项目由云湖社交软件（以下简称“云湖”）“黑名单共享群”维护。
+# 这个项目干什么？
+这个项目通过一系列措施维护一个黑名单仓库，供云湖的各大群主使用。  
+# 怎么举报一个用户？
+把一个用户加入黑名单目前需要经过请求：
+1.加入【云湖黑名单共享群】，并上传书面的举报材料。（注意：必须有图片证据，必须包括聊天记录、该用户的详情页截图，且markdown格式的文件需要打包为zip，此外任何格式无限制）  
+2.等待评估  
+3.结束本次举报流程。我们会酌情在举报有效的情况下择时日开始对本项目进行update。  
+# 我该怎么使用这个仓库？
+本项目真正有效的文件是**blacklist.csv**。
+在大多数情况下只需要：
+```
+git clone https://github.com/fayeyu114514/yhchat-public-blacklist/
+```
