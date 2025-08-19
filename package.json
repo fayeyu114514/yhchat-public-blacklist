@@ -1,0 +1,18 @@
+{
+  "name": "yhchat-public-blacklist",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node src/build.js",
+    "prebuild": "mkdir -p public",
+    "clean": "rm -rf public/*"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.0",
+    "fs-extra": "^11.1.1",
+    "iconv-lite": "^0.6.3",
+    "jschardet": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
