@@ -1,3 +1,4 @@
 node_modules/
 public/
 -p/
+.DS_Store

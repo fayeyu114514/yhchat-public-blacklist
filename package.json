@@ -1,10 +1,12 @@
 {
   "name": "yhchat-public-blacklist",
   "version": "1.0.0",
+  "description": "一个共享的黑名单，使各个群组免于各种威胁",
   "scripts": {
     "build": "node src/build.js",
     "prebuild": "mkdir -p public",
-    "clean": "rm -rf public/*"
+    "clean": "rm -rf public/*",
+    "dev": "npm run build && echo '构建完成'"
   },
   "dependencies": {
     "csv-parse": "^5.5.0",
