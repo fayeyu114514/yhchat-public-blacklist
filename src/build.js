@@ -6,7 +6,7 @@ const jschardet = require('jschardet');
 
 // 配置
 const CSV_DIR = path.join(__dirname, 'csv');
-const STATIC_DIR = path.join(__dirname, 'public'); // 静态文件目录
+const STATIC_DIR = path.join(__dirname, 'files'); // 静态文件目录
 const OUTPUT_DIR = path.join(__dirname, '../public');
 
 async function copyStaticFiles() {

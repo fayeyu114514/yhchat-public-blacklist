@@ -1,4 +1,4 @@
 node_modules/
-public/
--p/
+/public
+/-p
 .DS_Store
